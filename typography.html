@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+
+    <style>
+      body {
+        background-color: #d9d9fa;
+        color: #121212;
+      }
+      h1 {
+        text-align: center;
+        font-size: 40px;
+      }
+      p {
+        font-size: 24px;
+      }
+      #styled-by-id {
+        font-family: "Times New Roman", Georgia, serif;
+        font-weight: bolder;
+        letter-spacing: normal;
+        text-decoration: underline;
+        word-spacing: normal;
+        font-style: italic;
+        line-height: 140%;
+        font-size: 20px;
+        text-transform: none;
+        text-align: center;
+      }
+      ul {
+        list-style: none;
+        text-align: center;
+      }
+      li {
+        padding: 5px;
+        margin: 4px;
+        font-size: 20px;
+      }
+      .nav-link {
+        padding: 5px;
+        margin: 4px;
+        border: 2px solid black;
+        background-color: #003100;
+        color: #eeffee;
+        text-decoration: none;
+      }
+      .nav-link li {
+        display: inline-block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Typography Principles</h1>
+      <nav>
+        <ul>
+          <a class="nav-link" href="index.html"><li>Home</li></a>
+          <a class="nav-link" href="internal-css.html"><li>Internal-css</li></a>
+          <a class="nav-link" href="external-css.html"><li>External-css</li></a>
+          <a class="nav-link" href="testing-cascading.html">
+            <li>Cascading</li>
+          </a>
+          <a class="nav-link" href="classes-and-ids.html">
+            <li>Classes And Id's</li>
+          </a>
+          <a class="nav-link" href="div-and-span.html"><li>Div And Span</li></a>
+          <a class="nav-link" href="typography.html"><li>Typography</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div style="background-color: ghostwhite; height: 140px; width: auto">
+        <p id="styled-by-id">
+          This Paragraph Will Show The Effect Of
+          <span
+            style="
+              background-color: #b09cfa;
+              font-weight: bold;
+              font-style: italic;
+            "
+          >
+            Typography
+          </span>
+          Styling
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
